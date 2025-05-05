@@ -1,0 +1,10 @@
+Desktop.ini
+$RECYCLE.BIN/
+*.log
+*.tmp
+*.temp
+.ipynb_checkpoints/
+venv/
+ENV/
+env/
+*.env
