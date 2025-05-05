@@ -1,5 +1,5 @@
 # Shallow Machine Learning for Archaeological Geophysics
-Code for the shallow machine learning based semantic segmentation of geophysical data from archaeological contexts, implemented as a Jupyter Notebook. This code accompanies the paper: Verdonck, L., Dabas, M. and Bui, M. 2025. Interactive, shallow machine-learning based semantic segmentation of 2D and 3D geophysical data from archaeological sites.<br/> The installation and use have been tested on Windows 10 and Linux (Ubuntu 18.04) operating systems.
+Code for the shallow machine learning based semantic segmentation of geophysical data from archaeological contexts, implemented as a Jupyter Notebook. This code accompanies the paper: Verdonck, L., Dabas, M. and Bui, M. 2025. Interactive, shallow machine-learning based semantic segmentation of 2D and 3D geophysical data from archaeological sites.<br/> The installation and use have been tested on Windows 10 and 11, and Linux (Ubuntu 18.04) operating systems.
 ## Installation
 To run the code on your computer, download a package manager such as Conda or Mamba. Whereas installing packages using Conda can be slow or fail because it is unable to resolve dependencies, Mamba is often faster and better at resolving dependencies. The instructions below are based on the use of Mamba, but you can replace ‘mamba’ with ‘conda’ if you are using Conda on your computer.  
 
@@ -22,8 +22,8 @@ To run the code on your computer, download a package manager such as Conda or Ma
    (assuming that the created environment is called ‘my_environment’). Then type:
    ```
    jupyter notebook
-   ```   
    An internet browser will open, from which you can select the Jupyter notebook `ML_for_Arch_Geophys.ipynb`. 
+   ```   
 6. Follow the instructions in the notebook.
 
 **Ubuntu**   
@@ -53,3 +53,5 @@ To run the code on your computer, download a package manager such as Conda or Ma
    ```
    An internet browser will open, from which you can select the Jupyter notebook `ML_for_Arch_Geophys.ipynb`. 
 4. Follow the instructions in the notebook.
+## Documentation
+Please see the instructions and documentation in the Jupyter notebook. You can also follow the [Tutorial](https://github.com/lrverdon/Shallow-Machine-Learning-for-Archaeological-Geophysics/wiki/Tutorial) to work through the workflow using test data.
