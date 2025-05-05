@@ -6,8 +6,11 @@ To run the code on your computer, download a package manager such as Conda or Ma
 **Windows**
 1. Download this Github repository as a zip file using the ‘Code’ button at the top of this page and then ‘Download ZIP’. Save the file on your computer and extract it.
 2. Install Mamba using the Miniforge distribution. From [https://github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#install), download the Windows installer and follow the instructions.
-3. Open the Miniforge Prompt installed in the Windows Start menu.
-4. In the Miniforge Prompt, change to the directory where you extracted the zip file (this directory includes the `environment.yml` file). Type the following and press Enter:
+3. Open the Miniforge Prompt installed in the Windows Start menu. To create the new environment (step 4), the current environment (enclosed in parentheses) should be 'base'. If the current environment is not 'base', type
+   ```
+   mamba activate base
+   ```
+5. In the Miniforge Prompt, change to the directory where you extracted the zip file (this directory includes the `environment.yml` file). Type the following and press Enter:
 
    ```
    mamba env create -f environment.yml
@@ -21,7 +24,7 @@ To run the code on your computer, download a package manager such as Conda or Ma
    jupyter notebook
    ```   
    An internet browser will open, from which you can select the Jupyter notebook `ML_for_Arch_Geophys.ipynb`. 
-5. Follow the instructions in the notebook.
+6. Follow the instructions in the notebook.
 
 **Ubuntu**   
 1. Download this Github repository as a zip file using the ‘Code’ button at the top of this page and then ‘Download ZIP’. Save the file on your computer and extract it.
