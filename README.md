@@ -55,3 +55,5 @@ To run the code on your computer, download a package manager such as Conda or Ma
 4. Follow the instructions in the notebook.
 ## Documentation
 Please see the instructions and documentation in the Jupyter notebook. You can also follow the [Tutorial](https://github.com/lrverdon/Shallow-Machine-Learning-for-Archaeological-Geophysics/wiki/Tutorial) to work through the workflow using test data.
+## Test data
+Three test datasets (discussed as case studies in the paper) on which the software can be tried, are available at: https://zenodo.org/records/15281840.
